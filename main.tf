@@ -22,8 +22,8 @@ locals {
 
   /* Split the full CIDR range into smaller subnets.
    */
-  public_subnet_bits  = 3
-  private_subnet_bits = 4
+  public_subnet_bits  = 4
+  private_subnet_bits = 3
 
   /* Allocate one /20 subnet for public traffic in each availability zone.
    */
